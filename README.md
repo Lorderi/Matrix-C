@@ -1,3 +1,4 @@
+was made on Mar 19, 2023 
 # Matrix library
 
 Realize the main actions with matrices: create_matrix (creation), remove_matrix (cleaning and destruction), eq_matrix (comparison), sum_matrix (addition), sub_matrix (subtraction), mult_matrix (multiplication), mult_number (multiplication by a number), transpose (transposition), determinant (calculating the determinant), calc_complements (calculating the matrix of algebraic complements), inverse_matrix (finding the inverse matrix). 
