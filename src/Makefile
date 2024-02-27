@@ -52,7 +52,6 @@ leaks:  #  $(TEST_PATH)
 cppcheck:
 	cppcheck --enable=all --suppress=missingIncludeSystem *.c *.h
 
-#https://21-school-by-students.notion.site/Homebrew-goinfre-af3acfc9cfee424481a8a08c204ff272
 .PHONY: gcov_report
 gcov_report: clean gcov_build
 	./test; lcov -t "$(APP_PATH)" -o matrix.info -c -d .
